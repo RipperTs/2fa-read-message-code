@@ -6,6 +6,7 @@
   "homepage": "https://github.com/ripperts",
   "preload": "preload.js",
   "logo": "logo.png",
+  "platform": ["darwin"],
   "features": [
     {
       "platform": "darwin",
