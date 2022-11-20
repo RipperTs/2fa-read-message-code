@@ -10,7 +10,7 @@
     {
       "platform": "darwin",
       "code": "smsVerificationCode",
-      "explain": "读取10分钟内的短信验证码",
+      "explain": "读取最近时间的短信验证码",
       "cmds": [
         "2fa",
         "验证码",
