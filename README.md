@@ -10,8 +10,8 @@
 
 ## 效果
 
-![img.png](img.png)
-![img_1.png](img_1.png)
+![img.png](Xnip2022-11-20_18-42-40.png)
+![img_1.png](Xnip2022-11-20_18-42-55.png)
 
 ## 原理
 Mac上短信数据库位置是放在 `Library/Messages/chat.db` 通过插件读取到并解析出来最近的短信验证码, 然后通过剪切板复制到剪切板
