@@ -11,7 +11,15 @@
   "dependencies": {
     "@stacker/alfred-utils": "^0.1.41",
     "q": "^1.5.1",
-    "sqlite3": "^5.0.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "babel-plugin-import": "^1.13.0",
+    "vue-quill-editor": "^3.0.6",
+    "vue-template-compiler": "^2.6.11",
     "utools-api-types": "^3.0.0"
   }
 }
