@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "pluginName": "读取短信验证码",
   "description": "【仅限Mac用户】读取短信验证码，一键复制到剪贴板~ (需要在iPhone手机上开启短信转发,并且在Mac的安全隐私设置中给uTools完全磁盘访问权限)",
   "author": "ripper",
-  "homepage": "https://github.com/ripperts",
+  "homepage": "https://github.com/RipperTs/2fa-read-message-code",
   "preload": "preload.js",
   "logo": "logo.png",
   "platform": ["darwin"],
