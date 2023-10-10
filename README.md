@@ -16,22 +16,6 @@
 ## 原理
 Mac上短信数据库位置是放在 `Library/Messages/chat.db` 通过插件读取到并解析出来最近的短信验证码, 然后通过剪切板复制到剪切板
 
-## 开发
-> 注意区分`m芯片`和`intel芯片`编译`SQLite3`的方式是不同的,所以不能通用
-> 使用`npm install`安装全部依赖后`m芯片`需要再手动安装一次`sqlite3`依赖
-
-### m芯片
-```bash
-# 卸载原有的sqlite3依赖
-npm uninstall sqlite3
-# 安装m芯片的sqlite3依赖
-npm install sqlite3 --build-from-source --target_arch=arm64 --fallback-to-build
-```
-
-如果不想手动安装,在安装全部依赖钱可以使用`npm run install:arm64`命令  
-或者直接下载已经编译好的`upx`包使用即可! 
-[最新版本下载地址](https://github.com/RipperTs/2fa-read-message-code/releases)
-
 ## 问题
 - 如果有问题可以在[issues](https://github.com/RipperTs/2fa-read-message-code/issues)中提出,我会尽快解决
 - 插件报错后会自动打开日志文件,可以在日志文件中查看错误信息
